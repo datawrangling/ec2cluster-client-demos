@@ -1,0 +1,8 @@
+aws_access_key_id: AAAAA8BHBBBBBBBBBMM9 
+aws_secret_access_key: ABCiDu/BIBSCubisbdiBISBDUSBDUSBFSUIbubbu
+rest_url: https://ec2-XXX-XXX-XX-XXX.compute-1.amazonaws.com/
+admin_user: REPLACE_ME
+admin_password: REPLACE_ME
+inputbucket: REPLACE-WITH-YOUR-INBUCKET
+outputbucket: REPLACE-WITH-YOUR-OUTBUCKET
+keypair: your-keypair
