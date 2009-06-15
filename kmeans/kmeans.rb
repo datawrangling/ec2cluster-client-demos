@@ -1,4 +1,4 @@
-# Short Ruby example using the Elasticwulf REST API and
+# Short Ruby example using the ec2cluster REST API and
 # the right_aws Amazon S3 module to run a MPI job on EC2
 #
 # To run the demo:
@@ -34,7 +34,7 @@ def create_bucket(bucketname, s3)
 end
 
 # ---------------------------------------------------
-# Set AWS credentials and Elasticwulf service & job info
+# Set AWS credentials and ec2cluster service & job info
 # ---------------------------------------------------
 
 CONFIG = YAML.load_file("config.yml")
@@ -81,7 +81,7 @@ end
 # ---------------------------------------------------
 
 puts "Running Job command..."
-# Use ActiveResource to communicate with the Elasticwulf REST API
+# Use ActiveResource to communicate with the ec2cluster REST API
 class Job < ActiveResource::Base
   self.site = CONFIG['rest_url']  
   self.user = CONFIG['admin_user']
